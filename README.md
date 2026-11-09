@@ -12,7 +12,7 @@
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)](https://www.figma.com/)
 
 <p align="center">
-  <img src="01-project-logo.jpeg" alt="Basira Project Logo" width="220">
+  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/01-project-logo.jpeg" alt="Basira Project Logo" width="220">
 </p>
 
 **Basira** is an AI-powered assistive smart glasses project developed as a collaborative graduation project by a Computer Engineering team at Taif University.
@@ -43,7 +43,9 @@ The system combines embedded hardware, AI-powered processing, and a companion mo
 
 The following image presents the Basira smart glasses prototype from four different views: front, upper, right, and left.
 
-[Basira Smart Glasses Prototype](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/02-prototype-design.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/02-prototype-design.jpg))
+<p align="center">
+  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/02-prototype-design.jpg" alt="Basira Smart Glasses Prototype - Four Views" width="850">
+</p>
 
 ## System Design & Architecture
 
@@ -51,7 +53,9 @@ The following image presents the Basira smart glasses prototype from four differ
 
 The system analysis illustrates the problem domain and the main requirements considered during the development of Basira.
 
-[Basira System Analysis](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/03-system-analysis.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/03-system-analysis.jpg))
+<p align="center">
+  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/03-system-analysis.jpg" alt="Basira System Analysis" width="850">
+</p>
 
 ### 2. Overall System Architecture
 
@@ -61,19 +65,25 @@ Basira integrates three main components:
 - **Embedded Processing and Sensors:** Integrates Raspberry Pi and ESP32 platforms with connected sensors and processing components.
 - **Mobile Application:** Provides interfaces for interacting with the system and managing supported features.
 
-[Basira Overall System Architecture](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/04-overall-architecture.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/04-overall-architecture.jpg))
+<p align="center">
+  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/04-overall-architecture.jpg" alt="Basira Overall System Architecture" width="850">
+</p>
 
 ### 3. Methods and Requirements
 
 Presents the development methodology and the functional and technical requirements considered during the design and development of the system.
 
-[Basira Methods and Requirements](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/05-methods-requirements.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/05-methods-requirements.jpg))
+<p align="center">
+  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/05-methods-requirements.jpg" alt="Basira Methods and Requirements" width="850">
+</p>
 
 ### 4. System Interfaces
 
 Showcases the user-facing interface concepts and application screens designed for the Basira project.
 
-[Basira System Interfaces](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/06-system-interfaces.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/06-system-interfaces.jpg))
+<p align="center">
+  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/06-system-interfaces.jpg" alt="Basira System Interfaces" width="850">
+</p>
 
 ## Hardware Components
 
