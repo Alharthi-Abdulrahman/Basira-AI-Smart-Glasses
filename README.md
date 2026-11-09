@@ -2,17 +2,10 @@
 
 ### An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev/)
-[![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://sqlite.org/)
-[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com/)
-[![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32)
-[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)](https://www.arduino.cc/)
-[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)](https://www.figma.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev/) [![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/) [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://sqlite.org/) [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com/) [![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32) [![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)](https://www.arduino.cc/) [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)](https://www.figma.com/)
 
 <p align="center">
-  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/01-project-logo.jpeg" alt="Basira Project Logo" width="220">
+  <img src="01-project-logo.jpeg" alt="Basira Project Logo" width="400">
 </p>
 
 **Basira** is an AI-powered assistive smart glasses project developed as a collaborative graduation project by a Computer Engineering team at Taif University.
@@ -44,7 +37,7 @@ The system combines embedded hardware, AI-powered processing, and a companion mo
 The following image presents the Basira smart glasses prototype from four different views: front, upper, right, and left.
 
 <p align="center">
-  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/02-prototype-design.jpg" alt="Basira Smart Glasses Prototype - Four Views" width="850">
+  <img src="02-prototype-design.jpg" alt="Basira Smart Glasses Prototype - Four Views" width="750">
 </p>
 
 ## System Design & Architecture
@@ -54,7 +47,7 @@ The following image presents the Basira smart glasses prototype from four differ
 The system analysis illustrates the problem domain and the main requirements considered during the development of Basira.
 
 <p align="center">
-  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/03-system-analysis.jpg" alt="Basira System Analysis" width="850">
+  <img src="03-system-analysis.jpg" alt="Basira System Analysis" width="750">
 </p>
 
 ### 2. Overall System Architecture
@@ -66,7 +59,7 @@ Basira integrates three main components:
 - **Mobile Application:** Provides interfaces for interacting with the system and managing supported features.
 
 <p align="center">
-  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/04-overall-architecture.jpg" alt="Basira Overall System Architecture" width="850">
+  <img src="04-overall-architecture.jpg" alt="Basira Overall System Architecture" width="750">
 </p>
 
 ### 3. Methods and Requirements
@@ -74,7 +67,7 @@ Basira integrates three main components:
 Presents the development methodology and the functional and technical requirements considered during the design and development of the system.
 
 <p align="center">
-  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/05-methods-requirements.jpg" alt="Basira Methods and Requirements" width="850">
+  <img src="05-methods-requirements.jpg" alt="Basira Methods and Requirements" width="750">
 </p>
 
 ### 4. System Interfaces
@@ -82,7 +75,7 @@ Presents the development methodology and the functional and technical requiremen
 Showcases the user-facing interface concepts and application screens designed for the Basira project.
 
 <p align="center">
-  <img src="https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/06-system-interfaces.jpg" alt="Basira System Interfaces" width="850">
+  <img src="06-system-interfaces.jpg" alt="Basira System Interfaces" width="750">
 </p>
 
 ## Hardware Components
@@ -92,7 +85,7 @@ Showcases the user-facing interface concepts and application screens designed fo
 | Raspberry Pi 4 | Main embedded computing platform |
 | ESP-WROOM-32 (ESP32) | Microcontroller and hardware integration |
 | Raspberry Pi Camera Module 2 | Image and video capture |
-| TOF10120 | Distance measurement |
+| Time-of-Flight (ToF) Distance Sensor | Distance measurement |
 | MPU-6050 IMU | Motion and orientation sensing |
 | Coin Vibration Motors | Haptic feedback |
 
@@ -161,16 +154,24 @@ Potential areas for further development include:
 | Project Type | Collaborative Graduation Project |
 | Project Duration | August 2025 – June 2026 |
 
-## Developer
+## Documentation
+
+Detailed technical documentation is available in the `docs/` directory:
+
+- [System Architecture](docs/system-architecture.md)
+- [Hardware Components](docs/hardware-components.md)
+- [Software Design](docs/software-design.md)
+- [Testing and Results](docs/testing-and-results.md)
+
+## Repository Maintainer
 
 **Abdulrahman Alharthi**
 
 Computer Engineering Graduate
 
-- GitHub: [@Alharthi-Abdulrahman](https://github.com/Alharthi-Abdulrahman)
-- LinkedIn: [Abdulrahman Alharthi](https://www.linkedin.com/in/abdulrahman-al-harthi-8355353aa)
+- **GitHub:** [@Alharthi-Abdulrahman](https://github.com/Alharthi-Abdulrahman)
+- **LinkedIn:** [Abdulrahman Alharthi](https://www.linkedin.com/in/abdulrahman-al-harthi-8355353aa)
 
 ---
 
-**Basira**  
-*An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety.*
+*Basira — An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety.*
