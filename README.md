@@ -1,230 +1,130 @@
 # Basira — AI-Powered Assistive Smart Glasses
 
-<p align="center">
-  <strong>An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety</strong>
-</p>
-
-<p align="center">
-  A Computer Engineering Graduation Project | Taif University | 2026
-</p>
-
-<p align="center">
-  <img src="assets/images/basira_glasses_front_view.png" alt="Basira Smart Glasses Prototype" width="600">
-</p>
-
----
+**An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety**
 
 ## Overview
 
-**Basira** is an AI-powered wearable assistive system developed as a Computer Engineering graduation project at Taif University.
+Basira is an AI-powered assistive smart glasses project developed as a collaborative graduation project by a Computer Engineering team at Taif University.
 
-The project explores the integration of Artificial Intelligence (AI), Computer Vision, Embedded Systems, and Internet of Things (IoT) technologies into a smart wearable solution designed to support people with visual impairments.
+The project explores the integration of Artificial Intelligence (AI), Computer Vision, Embedded Systems, Internet of Things (IoT), and mobile application technologies to develop a wearable assistive solution designed to support people with visual impairments.
 
-Basira combines camera-based environmental analysis, facial recognition, distance estimation, and haptic feedback with a companion mobile application. The system aims to improve environmental awareness, support safer mobility, facilitate social interaction, and provide additional safety-related features.
+The system combines smart glasses equipped with a camera and embedded sensors with AI-powered processing, providing environmental awareness through object detection, facial recognition, distance estimation, and assistive feedback.
+
+A companion mobile application complements the wearable system by providing interfaces for user interaction and supporting additional safety-related functionality.
 
 ## The Problem
 
-People with visual impairments face challenges when navigating unfamiliar environments independently. Recognizing familiar individuals, identifying nearby obstacles, and responding to potential hazards can make everyday movement more difficult.
+People with visual impairments may encounter difficulties navigating unfamiliar environments, identifying people, and detecting obstacles in their surroundings.
 
-Existing assistive approaches may not provide an integrated experience that combines environmental awareness, person recognition, and connected safety features.
-
-**Basira explores an integrated wearable approach to address these challenges through AI-powered perception, smart sensing, and mobile connectivity.**
+Basira explores how AI, computer vision, and wearable technologies can help address these challenges by providing real-time environmental information and assistive feedback.
 
 ## Key Features
 
-### 1. AI-Based Object Detection
-
-- Analyzes camera input to identify objects in the surrounding environment.
-- Uses an AI-based detection model to recognize and classify objects.
-- Supports audio guidance to communicate detected information to the user.
+### 1. AI-Powered Object Detection
+Uses computer vision and AI-based processing to identify objects in the surrounding environment and provide information that can support user awareness.
 
 ### 2. Facial Recognition
+Provides facial recognition functionality to help users identify registered individuals.
 
-- Recognizes familiar individuals using registered facial information.
-- Supports facial registration through the companion mobile application.
-- Integrates camera input with a Raspberry Pi-based processing system.
+### 3. Obstacle Detection and Distance Estimation
+Uses camera-based detection and distance-sensing technology to help identify nearby obstacles and estimate their distance.
 
-### 3. Distance Estimation
+### 4. Haptic Feedback
+Uses vibration motors to provide tactile alerts, offering an additional feedback method when obstacles or relevant environmental conditions are detected.
 
-- Uses a TOF10120 laser distance sensor to estimate the distance to nearby objects.
-- Provides distance-related information to support obstacle awareness.
-- Integrates distance sensing with the wearable feedback system.
+### 5. Mobile Application
+A companion mobile application provides interfaces for system interaction and includes features related to user management and facial registration.
 
-### 4. Haptic Alerts
-
-- Uses vibration motors to provide tactile notifications.
-- Supports obstacle-related alerts through vibration feedback.
-- Complements audio guidance with a non-visual feedback method.
-
-### 5. Companion Mobile Application
-
-- Provides interfaces for user interaction and system management.
-- Supports facial registration and recognition-related functionality.
-- Includes location display and monitoring interfaces.
-- Connects the mobile application with the wearable system.
-
-### 6. Safety and Location Features
-
-- Incorporates GPS-based location tracking as part of the system.
-- Includes emergency alert functionality in the project design.
-- Aims to provide additional awareness and peace of mind for caregivers.
-
----
+### 6. Safety and Location Monitoring
+The project also explores safety-related functionality, including location monitoring and emergency notifications to support additional awareness and assistance.
 
 ## System Architecture
 
-Basira is designed around three interconnected components:
+Basira integrates three main components:
 
-| Component | Main Responsibilities |
-|---|---|
-| Smart Glasses | Capturing visual information and delivering audio and haptic feedback |
-| Embedded Processing & Sensors | AI processing, distance estimation, motion sensing, and hardware control |
-| Mobile Application | User interaction, facial registration, location display, and monitoring |
+### Smart Glasses
+The wearable component contains the camera, sensors, and feedback hardware required to collect environmental information and communicate alerts.
 
-These components work together to provide an integrated assistive system combining wearable hardware, intelligent processing, and mobile connectivity.
+### Embedded Processing and Sensors
+The embedded system integrates the Raspberry Pi and ESP32 platforms with the connected sensors and processing components to support the system's functionality.
 
-### System Architecture Diagram
-
-<p align="center">
-  <img src="assets/images/system_architecture_diagram.png" alt="Basira System Architecture" width="850">
-</p>
-
----
+### Mobile Application
+The mobile application provides a user interface for interacting with the system and managing supported application features.
 
 ## Hardware Components
 
-The project incorporates the following hardware components:
-
 | Component | Purpose |
 |---|---|
-| Raspberry Pi 4 | Embedded processing platform |
-| ESP-WROOM-32 | Microcontroller for embedded sensing and connectivity |
-| Raspberry Pi Camera Module 2 | Visual input and image capture |
-| TOF10120 Laser Range Sensor | Distance estimation |
+| Raspberry Pi 4 | Main embedded computing platform |
+| ESP-WROOM-32 (ESP32) | Microcontroller and hardware integration |
+| Raspberry Pi Camera Module 2 | Image and video capture |
+| TOF10120 | Distance measurement |
 | MPU-6050 IMU | Motion and orientation sensing |
-| Coin Vibration Motors | Haptic feedback and alerts |
+| Coin Vibration Motors | Haptic feedback |
 
----
+## Technologies and Tools
 
-## Technologies & Development Tools
+| Technology / Tool | Application |
+|---|---|
+| Python | AI processing and system development |
+| Computer Vision | Image analysis and visual perception |
+| Flask | Backend development |
+| SQLite | Database management |
+| Flutter | Mobile application development |
+| Android Studio | Mobile application development environment |
+| Arduino IDE | ESP32 programming and hardware integration |
+| Figma | UI/UX design and prototyping |
+| Visual Studio Code | Development environment |
 
-### Artificial Intelligence & Computer Vision
-- Python
-- OpenCV
-- AI-Based Object Detection
-- Facial Recognition
+## Implementation Highlights
 
-### Embedded Systems & IoT
-- ESP32
-- Arduino IDE
-- Sensor Integration
-- Wi-Fi Communication
+The project brings together multiple areas of Computer Engineering:
 
-### Backend & Data Management
-- Flask Framework
-- SQLite
-- HTTP Communication
-- JSON Data Exchange
-
-### Mobile Application Development
-- Flutter
-- Android Studio
-
-### Design & Development
-- Figma
-- Visual Studio Code
-
----
-
-## Prototype & Application
-
-### Smart Glasses Prototype
-
-The wearable prototype integrates embedded hardware, sensing components, and user feedback mechanisms into a smart glasses design.
-
-<p align="center">
-  <img src="assets/images/basira_glasses_front_view.png" alt="Basira prototype front view" width="32%">
-  <img src="assets/images/basira_glasses_side_view.png" alt="Basira prototype side view" width="32%">
-  <img src="assets/images/basira_glasses_top_view.png" alt="Basira prototype top view" width="32%">
-</p>
-
-### Mobile Application Interfaces
-
-The companion application provides interfaces for interacting with the Basira system.
-
-<p align="center">
-  <img src="assets/images/mobile_app_dashboard_screen.png" alt="Basira mobile application dashboard" width="30%">
-  <img src="assets/images/mobile_app_face_screen.png" alt="Basira facial recognition interface" width="30%">
-  <img src="assets/images/mobile_app_map_screen.png" alt="Basira location map interface" width="30%">
-</p>
-
----
-
-## Project Development
-
-The project followed the **Waterfall Software Development Model**, progressing through structured development stages.
-
-The work covered:
-
-- Requirements analysis and system planning.
-- Hardware and software specification.
-- System architecture and component integration.
-- AI and computer vision development.
-- Embedded sensing and feedback mechanisms.
-- Mobile application development.
-- System integration and prototype evaluation.
-
----
+- Integration of AI-powered computer vision capabilities.
+- Development of facial recognition functionality.
+- Integration of camera-based object detection.
+- Distance measurement using a dedicated sensor.
+- Embedded hardware integration using Raspberry Pi and ESP32.
+- Implementation of vibration-based assistive feedback.
+- Development of a companion mobile application.
+- Database integration for supported application functionality.
 
 ## Project Objectives
 
-The main objectives of Basira are to:
+- Explore AI-powered assistive technologies for people with visual impairments.
+- Improve environmental awareness through computer vision.
+- Support facial recognition and obstacle detection.
+- Provide additional feedback through haptic alerts.
+- Integrate embedded systems with mobile application technologies.
+- Explore safety-oriented features in a connected wearable system.
 
-- Improve environmental awareness for people with visual impairments.
-- Support obstacle awareness through object detection and distance estimation.
-- Facilitate the recognition of familiar individuals.
-- Provide accessible audio and haptic feedback.
-- Integrate wearable technology with mobile application services.
-- Explore additional safety features through location tracking and emergency alerts.
+## Scope and Limitations
 
----
+Basira is an academic graduation project developed to explore the integration of AI, computer vision, embedded systems, and mobile technologies into an assistive wearable solution.
+
+The described features represent the project's documented functionality and development scope. Performance, reliability, and real-world effectiveness may depend on environmental conditions, hardware limitations, and system integration.
+
+Basira is not intended to replace existing mobility aids or professional assistance.
 
 ## Future Development
 
-Potential areas for future improvement include:
+Potential areas for further development include:
 
-- Enhancing object detection accuracy and real-time performance.
-- Improving facial recognition under different lighting conditions.
-- Advancing sensor integration and environmental awareness.
-- Optimizing processing efficiency and power consumption.
-- Improving wearable ergonomics and user experience.
-- Expanding real-world testing and system evaluation.
-
----
+- Improving object detection accuracy and environmental understanding.
+- Enhancing facial recognition performance under different lighting conditions.
+- Improving distance estimation and obstacle detection.
+- Optimizing embedded processing and power consumption.
+- Expanding mobile application functionality.
+- Further testing and evaluating system performance in real-world environments.
 
 ## Project Information
 
-| Item | Details |
-|---|---|
-| Project Name | Basira — AI-Powered Assistive Smart Glasses |
-| Project Type | Computer Engineering Graduation Project |
-| Institution | Taif University |
-| Academic Year | 2025–2026 |
-| Development Team | Computer Engineering Graduation Team |
-| Project Domain | Artificial Intelligence, Computer Vision, Embedded Systems, IoT, and Mobile Development |
-
-This project was developed collaboratively by a Computer Engineering graduation team.
+- **Project Name:** Basira
+- **Institution:** Taif University
+- **Department:** Computer Engineering
+- **Project Type:** Collaborative Graduation Project
+- **Project Duration:** August 2025 – June 2026
 
 ---
 
-## Scope & Disclaimer
-
-Basira is an academic engineering project and assistive technology prototype. The features described in this repository reflect the project's design and documented development.
-
-The system is not a certified medical device or a replacement for established mobility aids, guide dogs, or other safety practices. Its use should not be relied upon as the sole means of navigation or emergency response.
-
----
-
-<p align="center">
-  <strong>Basira — Technology That Helps People See Beyond Sight.</strong>
-</p>
+**Basira — An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety.**
