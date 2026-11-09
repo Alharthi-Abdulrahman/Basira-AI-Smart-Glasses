@@ -2,13 +2,17 @@
 
 **An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety**
 
+<p align="center">
+  <img src="assets/images/01-project-logo.jpeg" alt="Basira Project Logo" width="180">
+</p>
+
 ## Overview
 
 Basira is an AI-powered assistive smart glasses project developed as a collaborative graduation project by a Computer Engineering team at Taif University.
 
-The project explores the integration of Artificial Intelligence (AI), Computer Vision, Embedded Systems, Internet of Things (IoT), and mobile application technologies to develop a wearable assistive solution designed to support people with visual impairments.
+The project explores the integration of Artificial Intelligence (AI), Computer Vision, Embedded Systems, Internet of Things (IoT), and mobile application technologies into a wearable assistive solution designed to support people with visual impairments.
 
-The system combines smart glasses equipped with a camera and embedded sensors with AI-powered processing, providing environmental awareness through object detection, facial recognition, distance estimation, and assistive feedback.
+The system combines smart glasses equipped with a camera and embedded sensors with AI-powered processing to provide environmental awareness through object detection, facial recognition, distance estimation, and assistive feedback.
 
 A companion mobile application complements the wearable system by providing interfaces for user interaction and supporting additional safety-related functionality.
 
@@ -16,40 +20,77 @@ A companion mobile application complements the wearable system by providing inte
 
 People with visual impairments may encounter difficulties navigating unfamiliar environments, identifying people, and detecting obstacles in their surroundings.
 
-Basira explores how AI, computer vision, and wearable technologies can help address these challenges by providing real-time environmental information and assistive feedback.
+Basira explores how AI, computer vision, and wearable technologies can help address these challenges by providing environmental information and assistive feedback.
 
 ## Key Features
 
 ### 1. AI-Powered Object Detection
+
 Uses computer vision and AI-based processing to identify objects in the surrounding environment and provide information that can support user awareness.
 
 ### 2. Facial Recognition
+
 Provides facial recognition functionality to help users identify registered individuals.
 
 ### 3. Obstacle Detection and Distance Estimation
+
 Uses camera-based detection and distance-sensing technology to help identify nearby obstacles and estimate their distance.
 
 ### 4. Haptic Feedback
+
 Uses vibration motors to provide tactile alerts, offering an additional feedback method when obstacles or relevant environmental conditions are detected.
 
 ### 5. Mobile Application
+
 A companion mobile application provides interfaces for system interaction and includes features related to user management and facial registration.
 
 ### 6. Safety and Location Monitoring
+
 The project also explores safety-related functionality, including location monitoring and emergency notifications to support additional awareness and assistance.
 
-## System Architecture
+## Prototype Design
+
+The following image presents the Basira smart glasses prototype from four different views: front, upper, right, and left.
+
+<p align="center">
+  <img src="assets/images/02-prototype-design.jpg" alt="Basira Smart Glasses Prototype - Four Views" width="750">
+</p>
+
+## System Analysis
+
+This section presents the system analysis and the design considerations behind Basira, illustrating the problem domain and the main requirements addressed by the project.
+
+<p align="center">
+  <img src="assets/images/03-system-analysis.jpg" alt="Basira System Analysis" width="850">
+</p>
+
+## Overall System Architecture
 
 Basira integrates three main components:
 
-### Smart Glasses
-The wearable component contains the camera, sensors, and feedback hardware required to collect environmental information and communicate alerts.
+- **Smart Glasses:** The wearable component contains the camera, sensors, and feedback hardware required to collect environmental information and communicate alerts.
+- **Embedded Processing and Sensors:** The embedded system integrates the Raspberry Pi and ESP32 platforms with connected sensors and processing components.
+- **Mobile Application:** Provides a user interface for interacting with the system and managing supported application features.
 
-### Embedded Processing and Sensors
-The embedded system integrates the Raspberry Pi and ESP32 platforms with the connected sensors and processing components to support the system's functionality.
+<p align="center">
+  <img src="assets/images/04-overall-architecture.jpg" alt="Basira Overall System Architecture" width="850">
+</p>
 
-### Mobile Application
-The mobile application provides a user interface for interacting with the system and managing supported application features.
+## Methods and Requirements
+
+This section presents the development methodology and the functional and technical requirements considered during the design and development of the Basira system.
+
+<p align="center">
+  <img src="assets/images/05-methods-requirements.jpg" alt="Basira Methods and Requirements" width="850">
+</p>
+
+## System Interfaces
+
+The following image presents the system interfaces designed for the Basira project, illustrating the user-facing interface concepts and application screens.
+
+<p align="center">
+  <img src="assets/images/06-system-interfaces.jpg" alt="Basira System Interfaces" width="850">
+</p>
 
 ## Hardware Components
 
