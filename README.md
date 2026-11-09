@@ -3,7 +3,7 @@
 **An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety**
 
 <p align="center">
-  <img src="assets/images/01-project-logo.jpeg" alt="Basira Project Logo" width="180">
+  <img src="01-project-logo.jpeg" alt="Basira Project Logo" width="220">
 </p>
 
 ## Overview
@@ -25,27 +25,21 @@ Basira explores how AI, computer vision, and wearable technologies can help addr
 ## Key Features
 
 ### 1. AI-Powered Object Detection
-
 Uses computer vision and AI-based processing to identify objects in the surrounding environment and provide information that can support user awareness.
 
 ### 2. Facial Recognition
-
 Provides facial recognition functionality to help users identify registered individuals.
 
 ### 3. Obstacle Detection and Distance Estimation
-
 Uses camera-based detection and distance-sensing technology to help identify nearby obstacles and estimate their distance.
 
 ### 4. Haptic Feedback
-
 Uses vibration motors to provide tactile alerts, offering an additional feedback method when obstacles or relevant environmental conditions are detected.
 
 ### 5. Mobile Application
-
 A companion mobile application provides interfaces for system interaction and includes features related to user management and facial registration.
 
 ### 6. Safety and Location Monitoring
-
 The project also explores safety-related functionality, including location monitoring and emergency notifications to support additional awareness and assistance.
 
 ## Prototype Design
@@ -53,7 +47,7 @@ The project also explores safety-related functionality, including location monit
 The following image presents the Basira smart glasses prototype from four different views: front, upper, right, and left.
 
 <p align="center">
-  <img src="assets/images/02-prototype-design.jpg" alt="Basira Smart Glasses Prototype - Four Views" width="750">
+  <img src="02-prototype-design.jpg" alt="Basira Smart Glasses Prototype - Four Views" width="800">
 </p>
 
 ## System Analysis
@@ -61,7 +55,7 @@ The following image presents the Basira smart glasses prototype from four differ
 This section presents the system analysis and the design considerations behind Basira, illustrating the problem domain and the main requirements addressed by the project.
 
 <p align="center">
-  <img src="assets/images/03-system-analysis.jpg" alt="Basira System Analysis" width="850">
+  <img src="03-system-analysis.jpg" alt="Basira System Analysis" width="850">
 </p>
 
 ## Overall System Architecture
@@ -73,7 +67,7 @@ Basira integrates three main components:
 - **Mobile Application:** Provides a user interface for interacting with the system and managing supported application features.
 
 <p align="center">
-  <img src="assets/images/04-overall-architecture.jpg" alt="Basira Overall System Architecture" width="850">
+  <img src="04-overall-architecture.jpg" alt="Basira Overall System Architecture" width="850">
 </p>
 
 ## Methods and Requirements
@@ -81,7 +75,7 @@ Basira integrates three main components:
 This section presents the development methodology and the functional and technical requirements considered during the design and development of the Basira system.
 
 <p align="center">
-  <img src="assets/images/05-methods-requirements.jpg" alt="Basira Methods and Requirements" width="850">
+  <img src="05-methods-requirements.jpg" alt="Basira Methods and Requirements" width="850">
 </p>
 
 ## System Interfaces
@@ -89,7 +83,7 @@ This section presents the development methodology and the functional and technic
 The following image presents the system interfaces designed for the Basira project, illustrating the user-facing interface concepts and application screens.
 
 <p align="center">
-  <img src="assets/images/06-system-interfaces.jpg" alt="Basira System Interfaces" width="850">
+  <img src="06-system-interfaces.jpg" alt="Basira System Interfaces" width="850">
 </p>
 
 ## Hardware Components
@@ -160,11 +154,13 @@ Potential areas for further development include:
 
 ## Project Information
 
-- **Project Name:** Basira
-- **Institution:** Taif University
-- **Department:** Computer Engineering
-- **Project Type:** Collaborative Graduation Project
-- **Project Duration:** August 2025 – June 2026
+| Item | Details |
+|---|---|
+| Project Name | Basira |
+| Institution | Taif University |
+| Department | Computer Engineering |
+| Project Type | Collaborative Graduation Project |
+| Project Duration | August 2025 – June 2026 |
 
 ---
 
