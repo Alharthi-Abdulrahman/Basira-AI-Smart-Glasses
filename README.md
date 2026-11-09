@@ -1,90 +1,72 @@
 # Basira — AI-Powered Assistive Smart Glasses
 
-**An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety**
+### An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety
+
+[Python](https://www.python.org/) · [Flutter](https://flutter.dev/) · [Flask](https://flask.palletsprojects.com/) · [SQLite](https://sqlite.org/) · [Raspberry Pi](https://www.raspberrypi.com/) · [ESP32](https://www.espressif.com/en/products/socs/esp32) · [Computer Vision](https://opencv.org/) · [Figma](https://www.figma.com/)
 
 <p align="center">
   <img src="01-project-logo.jpeg" alt="Basira Project Logo" width="220">
 </p>
 
-## Overview
-
-Basira is an AI-powered assistive smart glasses project developed as a collaborative graduation project by a Computer Engineering team at Taif University.
+**Basira** is an AI-powered assistive smart glasses project developed as a collaborative graduation project by a Computer Engineering team at Taif University.
 
 The project explores the integration of Artificial Intelligence (AI), Computer Vision, Embedded Systems, Internet of Things (IoT), and mobile application technologies into a wearable assistive solution designed to support people with visual impairments.
 
 The system combines smart glasses equipped with a camera and embedded sensors with AI-powered processing to provide environmental awareness through object detection, facial recognition, distance estimation, and assistive feedback.
 
-A companion mobile application complements the wearable system by providing interfaces for user interaction and supporting additional safety-related functionality.
+---
 
-## The Problem
+## Overview
 
-People with visual impairments may encounter difficulties navigating unfamiliar environments, identifying people, and detecting obstacles in their surroundings.
+Basira provides an integrated wearable concept designed to help people with visual impairments better understand their surroundings.
 
-Basira explores how AI, computer vision, and wearable technologies can help address these challenges by providing environmental information and assistive feedback.
+The system combines embedded hardware, AI-powered processing, and a companion mobile application to explore assistive features for environmental awareness, navigation support, and safety.
 
 ## Key Features
 
-### 1. AI-Powered Object Detection
-Uses computer vision and AI-based processing to identify objects in the surrounding environment and provide information that can support user awareness.
-
-### 2. Facial Recognition
-Provides facial recognition functionality to help users identify registered individuals.
-
-### 3. Obstacle Detection and Distance Estimation
-Uses camera-based detection and distance-sensing technology to help identify nearby obstacles and estimate their distance.
-
-### 4. Haptic Feedback
-Uses vibration motors to provide tactile alerts, offering an additional feedback method when obstacles or relevant environmental conditions are detected.
-
-### 5. Mobile Application
-A companion mobile application provides interfaces for system interaction and includes features related to user management and facial registration.
-
-### 6. Safety and Location Monitoring
-The project also explores safety-related functionality, including location monitoring and emergency notifications to support additional awareness and assistance.
+- **AI-Powered Object Detection:** Identifies objects in the surrounding environment using computer vision.
+- **Facial Recognition:** Helps users identify registered individuals.
+- **Obstacle Detection:** Uses camera-based detection to identify potential obstacles.
+- **Distance Estimation:** Uses a dedicated distance sensor to measure nearby obstacles.
+- **Haptic Feedback:** Provides tactile alerts through integrated vibration motors.
+- **Mobile Application:** Offers interfaces for system interaction and facial registration.
+- **Safety-Related Functionality:** Explores location monitoring and emergency notifications.
 
 ## Prototype Design
 
 The following image presents the Basira smart glasses prototype from four different views: front, upper, right, and left.
 
-<p align="center">
-  <img src="02-prototype-design.jpg" alt="Basira Smart Glasses Prototype - Four Views" width="800">
-</p>
+[Basira Smart Glasses Prototype](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/02-prototype-design.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/02-prototype-design.jpg))
 
-## System Analysis
+## System Design & Architecture
 
-This section presents the system analysis and the design considerations behind Basira, illustrating the problem domain and the main requirements addressed by the project.
+### 1. System Analysis
 
-<p align="center">
-  <img src="03-system-analysis.jpg" alt="Basira System Analysis" width="850">
-</p>
+The system analysis illustrates the problem domain and the main requirements considered during the development of Basira.
 
-## Overall System Architecture
+[Basira System Analysis](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/03-system-analysis.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/03-system-analysis.jpg))
+
+### 2. Overall System Architecture
 
 Basira integrates three main components:
 
-- **Smart Glasses:** The wearable component contains the camera, sensors, and feedback hardware required to collect environmental information and communicate alerts.
-- **Embedded Processing and Sensors:** The embedded system integrates the Raspberry Pi and ESP32 platforms with connected sensors and processing components.
-- **Mobile Application:** Provides a user interface for interacting with the system and managing supported application features.
+- **Smart Glasses:** The wearable component containing the camera, sensors, and feedback hardware.
+- **Embedded Processing and Sensors:** Integrates Raspberry Pi and ESP32 platforms with connected sensors and processing components.
+- **Mobile Application:** Provides interfaces for interacting with the system and managing supported features.
 
-<p align="center">
-  <img src="04-overall-architecture.jpg" alt="Basira Overall System Architecture" width="850">
-</p>
+[Basira Overall System Architecture](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/04-overall-architecture.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/04-overall-architecture.jpg))
 
-## Methods and Requirements
+### 3. Methods and Requirements
 
-This section presents the development methodology and the functional and technical requirements considered during the design and development of the Basira system.
+Presents the development methodology and the functional and technical requirements considered during the design and development of the system.
 
-<p align="center">
-  <img src="05-methods-requirements.jpg" alt="Basira Methods and Requirements" width="850">
-</p>
+[Basira Methods and Requirements](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/05-methods-requirements.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/05-methods-requirements.jpg))
 
-## System Interfaces
+### 4. System Interfaces
 
-The following image presents the system interfaces designed for the Basira project, illustrating the user-facing interface concepts and application screens.
+Showcases the user-facing interface concepts and application screens designed for the Basira project.
 
-<p align="center">
-  <img src="06-system-interfaces.jpg" alt="Basira System Interfaces" width="850">
-</p>
+[Basira System Interfaces](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/blob/main/06-system-interfaces.jpg) ([image](https://github.com/Alharthi-Abdulrahman/Basira-AI-Smart-Glasses/raw/main/06-system-interfaces.jpg))
 
 ## Hardware Components
 
@@ -97,19 +79,19 @@ The following image presents the system interfaces designed for the Basira proje
 | MPU-6050 IMU | Motion and orientation sensing |
 | Coin Vibration Motors | Haptic feedback |
 
-## Technologies and Tools
+## Technology Stack
 
-| Technology / Tool | Application |
+| Area | Technologies |
 |---|---|
-| Python | AI processing and system development |
-| Computer Vision | Image analysis and visual perception |
-| Flask | Backend development |
-| SQLite | Database management |
-| Flutter | Mobile application development |
-| Android Studio | Mobile application development environment |
-| Arduino IDE | ESP32 programming and hardware integration |
-| Figma | UI/UX design and prototyping |
-| Visual Studio Code | Development environment |
+| AI & Image Processing | Python, Computer Vision |
+| Backend | Flask |
+| Mobile Application | Flutter |
+| Database | SQLite |
+| Embedded Computing | Raspberry Pi 4 |
+| Microcontroller | ESP32 |
+| Hardware Programming | Arduino IDE |
+| UI/UX Design | Figma |
+| Development Environment | Android Studio, Visual Studio Code |
 
 ## Implementation Highlights
 
@@ -117,11 +99,11 @@ The project brings together multiple areas of Computer Engineering:
 
 - Integration of AI-powered computer vision capabilities.
 - Development of facial recognition functionality.
-- Integration of camera-based object detection.
+- Camera-based object detection.
 - Distance measurement using a dedicated sensor.
 - Embedded hardware integration using Raspberry Pi and ESP32.
-- Implementation of vibration-based assistive feedback.
-- Development of a companion mobile application.
+- Vibration-based assistive feedback.
+- Companion mobile application development.
 - Database integration for supported application functionality.
 
 ## Project Objectives
@@ -162,6 +144,16 @@ Potential areas for further development include:
 | Project Type | Collaborative Graduation Project |
 | Project Duration | August 2025 – June 2026 |
 
+## Developer
+
+**Abdulrahman Alharthi**
+
+Computer Engineering Graduate
+
+- GitHub: [@Alharthi-Abdulrahman](https://github.com/Alharthi-Abdulrahman)
+- LinkedIn: [Abdulrahman Alharthi](https://www.linkedin.com/in/abdulrahman-al-harthi-8355353aa)
+
 ---
 
-**Basira — An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety.**
+**Basira**  
+*An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety.*
