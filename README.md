@@ -2,7 +2,14 @@
 
 ### An Intelligent Wearable Assistive System for Enhanced Mobility, Awareness, and Safety
 
-[Python](https://www.python.org/) · [Flutter](https://flutter.dev/) · [Flask](https://flask.palletsprojects.com/) · [SQLite](https://sqlite.org/) · [Raspberry Pi](https://www.raspberrypi.com/) · [ESP32](https://www.espressif.com/en/products/socs/esp32) · [Computer Vision](https://opencv.org/) · [Figma](https://www.figma.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://sqlite.org/)
+[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com/)
+[![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32)
+[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)](https://www.figma.com/)
 
 <p align="center">
   <img src="01-project-logo.jpeg" alt="Basira Project Logo" width="220">
@@ -22,7 +29,7 @@ Basira provides an integrated wearable concept designed to help people with visu
 
 The system combines embedded hardware, AI-powered processing, and a companion mobile application to explore assistive features for environmental awareness, navigation support, and safety.
 
-## Key Features
+## Core Features
 
 - **AI-Powered Object Detection:** Identifies objects in the surrounding environment using computer vision.
 - **Facial Recognition:** Helps users identify registered individuals.
@@ -70,7 +77,7 @@ Showcases the user-facing interface concepts and application screens designed fo
 
 ## Hardware Components
 
-| Component | Purpose |
+| **Component** | **Purpose** |
 |---|---|
 | Raspberry Pi 4 | Main embedded computing platform |
 | ESP-WROOM-32 (ESP32) | Microcontroller and hardware integration |
@@ -81,7 +88,7 @@ Showcases the user-facing interface concepts and application screens designed fo
 
 ## Technology Stack
 
-| Area | Technologies |
+| **Area** | **Technologies** |
 |---|---|
 | AI & Image Processing | Python, Computer Vision |
 | Backend | Flask |
@@ -136,7 +143,7 @@ Potential areas for further development include:
 
 ## Project Information
 
-| Item | Details |
+| **Item** | **Details** |
 |---|---|
 | Project Name | Basira |
 | Institution | Taif University |
